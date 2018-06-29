@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sq.test_socketchat.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/welcome"/>
+    <ListView
+        android:id="@+id/linelist_view"
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:id="@+id/returnback"
+        android:layout_marginTop="39dp"
+        android:layout_gravity="right"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="#d95b5b"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="40dp">-->
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:src="@mipmap/headleft"-->
+            <!--/>-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/accessline"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@color/blue"-->
+            <!--android:text="@string/lineroom"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="20sp" />-->
+
+
+
+
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_user"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/register"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="57dp">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_user_info"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="@drawable/lbs_popup_bg"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:background="@color/devide_line" />-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/login"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_below="@id/ll_user_info"-->
+            <!--android:layout_marginLeft="25dp"-->
+            <!--android:layout_marginRight="25dp"-->
+            <!--android:layout_marginTop="27dp"-->
+            <!--android:background="@drawable/login_btn"-->
+            <!--android:text="@string/login"-->
+            <!--android:textColor="@android:color/white" />-->
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/remberpwd"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignLeft="@+id/login"-->
+            <!--android:layout_alignStart="@+id/login"-->
+            <!--android:layout_below="@+id/ll_user_info"-->
+            <!--android:text="记住密码" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/change_pwd"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignBaseline="@+id/remberpwd"-->
+            <!--android:layout_alignBottom="@+id/remberpwd"-->
+            <!--android:layout_alignEnd="@+id/login"-->
+            <!--android:layout_alignRight="@+id/login"-->
+            <!--android:text="修改密码"-->
+            <!--android:textColor="@color/black" />-->
+    <!--</RelativeLayout>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_forget_password"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:text="@string/forget_password"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="@color/blue"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/register"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:text="@string/register"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:background="@drawable/register_user_btn"-->
+        <!--android:textColor="@color/blue"-->
+        <!--android:textSize="16sp"/>-->
+
+<!--</RelativeLayout>-->

@@ -1,0 +1,2 @@
+LineRoomClient是客户端，需要在服务器开启后才能登录进去
+LineRoomServer 是服务端，监听是否有客户端请求连接，并转发客户端的消息
