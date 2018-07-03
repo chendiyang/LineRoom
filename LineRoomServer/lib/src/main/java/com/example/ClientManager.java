@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by sp01 on 2017/4/28.
+ * Created by chendsir on 2018/6/28.
  */
 // 客户端的管理类
 public class ClientManager {
